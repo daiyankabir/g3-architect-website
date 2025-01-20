@@ -29,6 +29,18 @@
     color: rgb(114, 114, 114);
 }
 
+.btn-primary {
+    background-color: rgb(255, 144, 14);
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 24px;
+    border: none;
+}
+
 /*header styles*/
 
 /*navbar*/
@@ -52,4 +64,42 @@
 .banner {
     max-width: 1440px;
     margin: 0 auto;
+}
+
+.brand {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+/*banner*/
+.banner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.banner-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.banner-description {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.banner-image {
+    max-width: 1440px;
+    margin-bottom: 20px;
 }
